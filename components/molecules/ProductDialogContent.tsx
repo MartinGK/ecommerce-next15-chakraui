@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/dialog"
 import { ProductType } from "@/lib/types"
 import { Text, Image, Button, Box } from "@chakra-ui/react"
-import { FaCartPlus, FaShoppingCart } from "react-icons/fa"
+import { FaCartPlus } from "react-icons/fa"
 
 export const ProductDialogContent = ({ product }: { product: ProductType }) => {
     return <DialogContent padding="20">
